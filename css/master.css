@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.hg-image {
+    width: 150%;
+    heigth: 150%;
+}
+
+.hg-words {
+    width: 350px;
+    height: 50px;
+}
+
+.hg-guess {
+    width: 350px;
+    height: 25px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.hg-used {
+    width: 350px;
+    height: 25px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.hg-letter-correct {
+    color: green;
+    padding-right: 20px;
+}
+
+.hg-letter-incorrect {
+    color: tomato;
+    padding-right: 20px;
+}
+
+.hg-guess-letter {
+    color: black;
+    padding-right: 20px;
+}
